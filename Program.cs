@@ -1,23 +1,34 @@
 ﻿using System;
 
-class Program {
-    static void Main()
+
+//A namespace in C# is used to organize code into logical groups and avoid naming conflicts.
+//Think of it like a folder structure:
+//Company
+// ├── ProjectA
+// │    └── Class1.cs
+// └── ProjectB
+//      └── Class1.cs
+namespace HelloWorld
+{
+    class Program
     {
-
-        // int val = 0;
-        // int val = int.Parse(Console.ReadLine());
-
-        if (int.TryParse(Console.ReadLine() , out int val))
+        static void Main()
         {
-            val += 10;
-            Console.WriteLine(val);
-        } else
-        {
-            Console.WriteLine("Invalid input. Please enter a valid integer.");
+
+
+            if (int.TryParse(Console.ReadLine(), out int val))
+            {
+                val += 10;
+                Console.WriteLine(val);
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid integer.");
+            }
+
+            Console.WriteLine(val + 10);
+
+
         }
-
-        Console.WriteLine(val + 10);
-
-       
     }
 }
