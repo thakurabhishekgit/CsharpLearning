@@ -12,3 +12,4 @@ C:\Users\AS162723\source\repos\C# Leaning\C# Leaning\obj\Debug\net10.0\refint\C#
 C:\Users\AS162723\source\repos\C# Leaning\C# Leaning\obj\Debug\net10.0\C# Leaning.pdb
 C:\Users\AS162723\source\repos\C# Leaning\C# Leaning\obj\Debug\net10.0\C# Leaning.genruntimeconfig.cache
 C:\Users\AS162723\source\repos\C# Leaning\C# Leaning\obj\Debug\net10.0\ref\C# Leaning.dll
+C:\Users\AS162723\source\repos\C# Leaning\C# Leaning\obj\Debug\net10.0\C# Leaning.sourcelink.json
