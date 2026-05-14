@@ -38,6 +38,14 @@ namespace DataTypes
             Console.WriteLine($"Decimal max and min = {decimal.MaxValue} and {decimal.MinValue}");
 
 
+            //Boolean
+            // bool isTrue = true; // 1 byte
+            // bool isFalse = false; // 1 byte
+            bool isCSharpFun = true;
+            bool isFalse = false;
+            Console.WriteLine($"Boolean value = {isCSharpFun} and value of isFalse = {isFalse}");
+
+
 
         }
     }
