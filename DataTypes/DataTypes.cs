@@ -46,7 +46,17 @@ namespace DataTypes
             Console.WriteLine($"Boolean value = {isCSharpFun} and value of isFalse = {isFalse}");
 
 
+            //Boxing and Unboxing
+            int num = 42; // value type
+            object obj = num; // Boxing: converting value type to reference type
+            int unboxedNum = (int)obj; // Unboxing: converting reference type back tovalue type
+            Console.WriteLine($"Boxed value = {obj} and unboxed value = {unboxedNum}");
 
+            int y = (int)obj; // Unboxing with direct cast
+            Console.WriteLine($"Unboxed value with direct cast = {y}");
+
+
+           
         }
     }
 }
