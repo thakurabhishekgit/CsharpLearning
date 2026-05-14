@@ -27,7 +27,7 @@ namespace MainApp
 {
    class Program
    {
-       static void Main()
+       static void Main(string[] args)
        {
 
             DataTypesClass.ShowDataTypes();
@@ -35,10 +35,8 @@ namespace MainApp
 
 
        }
+       
    }
-    
-
-
 
 }
 
