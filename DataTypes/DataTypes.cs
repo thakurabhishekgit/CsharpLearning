@@ -18,12 +18,14 @@ namespace DataTypes
 
             int ia = -100;
             uint iaa = 100;
+            Console.WriteLine($"Integer value = {ia} and unsigned integer value = {iaa}");
             Console.WriteLine($"Integer max and min = {int.MaxValue} and {int.MinValue}");
 
             long bigNumber = 9223372036L; // 64-bit signed integer
+            Console.WriteLine($"Long value = {bigNumber}");
             Console.WriteLine($"Long max and min = {long.MaxValue} and {long.MinValue}");
 
-            
+
         }
     }
 }
