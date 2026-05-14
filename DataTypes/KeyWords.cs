@@ -92,7 +92,7 @@
 
 using System;
 
-namespace KeywordsDemo
+namespace KeywordsDemo.KeywordsDemoClass
 {
     class KeywordsDemoClass
     {
@@ -101,9 +101,9 @@ namespace KeywordsDemo
         // Can only be assigned once
         // ------------------------------------------------
 
-        readonly int userId = 101;
+        public static readonly int userId = 101;
 
-        public void ShowKeywords()
+        public static void ShowKeywords()
         {
             // ------------------------------------------------
             // var
