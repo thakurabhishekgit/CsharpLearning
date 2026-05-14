@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C# Leaning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4067bfd32f0085f8be51ada89ee80a7fe8fb7bc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d5d4fd9412d44e84f024a5364a3e7c68a40c5ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("C# Leaning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C# Leaning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
