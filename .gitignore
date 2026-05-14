@@ -8,7 +8,7 @@ obj/
 *.user
 *.suo
 
-.pdb
+8.pdb
 
 *.log
 *.exe
@@ -17,3 +17,9 @@ obj/
 Thumbs.db
 
 .cache/
+
+
+
+*.exe
+*.dll
+*.log
