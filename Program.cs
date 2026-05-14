@@ -1,5 +1,5 @@
 ﻿using System;
-
+using DataTypes;
 
 //A namespace in C# is used to organize code into logical groups and avoid naming conflicts.
 //Think of it like a folder structure:
@@ -20,56 +20,27 @@
 //    class Program { }
 //}
 
-//namespace HelloWorld
-//{
-//    class Program
-//    {
-//        static void Main()
-//        {
 
 
-//            if (int.TryParse(Console.ReadLine(), out int val))
-//            {
-//                val += 10;
-//                Console.WriteLine(val);
-//            }
-//            else
-//            {
-//                Console.WriteLine("Invalid input. Please enter a valid integer.");
-//            }
 
-//            Console.WriteLine(val + 10);
+namespace MainApp
+{
+   class Program
+   {
+       static void Main()
+       {
+
+            DataTypesClass.ShowDataTypes();
+           
 
 
-//        }
-//    }
+       }
+   }
     
 
 
 
-//}
-
-
-
-namespace Abhishek
-{
-    class Program
-    {
-        public static void intern()
-        {
-            Console.WriteLine("Hello, Abhishek!");
-        }
-    }
 }
 
 
-namespace Kashish
-{
-    class Program
-    {
-        public static void intern()
-        {
-            Console.WriteLine("Hello, Kashish!");
-        }
-    }
-}
+
