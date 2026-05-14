@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+
 
 
 namespace ArraysDemo.Arr
@@ -52,6 +54,35 @@ namespace ArraysDemo.Arr
             Console.WriteLine(result);
         }
 
+
+        
+
+        public static void ListMethods()
+        {
+            List<int> nums = new List<int>();
+            // List<int> nums = new List<int>() { 1, 2, 3 };
+            nums.Add(1);
+            nums.Add(2);    
+            nums.Add(3);
+                nums.Add(4);
+                nums.Add(5);
+
+            PrintList(nums);
+
+
+            
+
+
+
+
+
+
+        }
+
+        static void PrintList(List<int> list)
+        {
+            Console.WriteLine($"[{string.Join(",", list)}]");
+        }
 
         
 

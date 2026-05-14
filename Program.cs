@@ -5,6 +5,7 @@ using Learning.NumericUtilities;
 using KeywordsDemo.KeywordsDemoClass;
 using ControlFlowDemo.ControlFlowExamples;
 using ArraysDemo.Arr;
+using ListDemo.ListMethodsDemo;
 
 //A namespace in C# is used to organize code into logical groups and avoid naming conflicts.
 //Think of it like a folder structure:
@@ -41,7 +42,9 @@ namespace MainApp
             
             // KeywordsDemoClass.ShowKeywords();
             // ControlFlowExamples.RunAllExamples();
-            Arr.TakeArrayInput();
+            // Arr.TakeArrayInput();
+
+            ListMethodsDemo.ShowListMethods();
 
 
        }
