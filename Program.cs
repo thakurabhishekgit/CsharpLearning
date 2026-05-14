@@ -55,7 +55,7 @@ namespace Abhishek
 {
     class Program
     {
-        static void intern()
+        public static void intern()
         {
             Console.WriteLine("Hello, Abhishek!");
         }
@@ -67,7 +67,7 @@ namespace Kashish
 {
     class Program
     {
-        static void intern()
+        public static void intern()
         {
             Console.WriteLine("Hello, Kashish!");
         }
