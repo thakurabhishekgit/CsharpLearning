@@ -4,6 +4,7 @@ using BuiltInFunctions;
 using Learning.NumericUtilities;
 using KeywordsDemo.KeywordsDemoClass;
 using ControlFlowDemo.ControlFlowExamples;
+using ArraysDemo.Arr;
 
 //A namespace in C# is used to organize code into logical groups and avoid naming conflicts.
 //Think of it like a folder structure:
@@ -39,7 +40,8 @@ namespace MainApp
             // NumericUtilitiesDemo.Run();
             
             // KeywordsDemoClass.ShowKeywords();
-            ControlFlowExamples.RunAllExamples();
+            // ControlFlowExamples.RunAllExamples();
+            Arr.TakeArrayInput();
 
 
        }
