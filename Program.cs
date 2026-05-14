@@ -1,5 +1,6 @@
 ﻿using System;
 using DataTypes;
+using BuiltInFunctions;
 
 //A namespace in C# is used to organize code into logical groups and avoid naming conflicts.
 //Think of it like a folder structure:
@@ -30,7 +31,8 @@ namespace MainApp
        static void Main(string[] args)
        {
 
-            DataTypesClass.ShowDataTypes();
+            // DataTypesClass.ShowDataTypes();
+            BuiltInFunctionsClass.ShowBuiltInFunctions();
            
 
 
