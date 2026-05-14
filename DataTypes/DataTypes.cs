@@ -25,6 +25,19 @@ namespace DataTypes
             Console.WriteLine($"Long value = {bigNumber}");
             Console.WriteLine($"Long max and min = {long.MaxValue} and {long.MinValue}");
 
+            //Float and double
+            // float f = 3.14f; // 32-bit single-precision floating point 4 bytes
+            // double d = 3.14; // 64-bit double-precision floating point 8 bytes
+            float pi = 3.14159f;
+            double dd = 2.71828D; // 128-bit decimal type 16 bytes
+
+            decimal money = 123.45m;
+            Console.WriteLine($"Float value = {pi} and double value = {dd} and decimal value = {money}");
+            Console.WriteLine($"Float max and min = {float.MaxValue} and {float.MinValue}");
+            Console.WriteLine($"Double max and min = {double.MaxValue} and {double.MinValue}");
+            Console.WriteLine($"Decimal max and min = {decimal.MaxValue} and {decimal.MinValue}");
+
+
 
         }
     }
