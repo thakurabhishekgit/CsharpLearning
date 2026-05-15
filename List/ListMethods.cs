@@ -245,6 +245,7 @@ namespace ListDemo.ListMethodsDemo
         static void PrintList(List<int> list)
         {
             Console.WriteLine($"[{string.Join(",", list)}]");
+            
         }
     }
 }
