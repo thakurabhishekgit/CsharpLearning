@@ -66,6 +66,7 @@ obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
  C# Leaning.AssemblyInfo.cs
  C# Leaning.GlobalUsings.g.cs
+OOPS/ClassDemo.cs
 Program.cs
 
 [metadataReferences]
