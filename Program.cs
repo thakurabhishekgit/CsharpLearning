@@ -6,6 +6,9 @@ using KeywordsDemo.KeywordsDemoClass;
 using ControlFlowDemo.ControlFlowExamples;
 using ArraysDemo.Arr;
 using ListDemo.ListMethodsDemo;
+using ClassDemoWithExamples.ClassDemo;
+
+//is bad design because:namespace should not usually include class name IMPORTANT
 
 //A namespace in C# is used to organize code into logical groups and avoid naming conflicts.
 //Think of it like a folder structure:
@@ -45,7 +48,7 @@ namespace MainApp
             // Arr.TakeArrayInput();
 
             // ListMethodsDemo.ShowListMethods();
-            
+            ClassDemo.Run();
 
 
        }

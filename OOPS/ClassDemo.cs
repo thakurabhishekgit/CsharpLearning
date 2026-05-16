@@ -1,7 +1,7 @@
 using System;
 
 
-namespace ClassDemoWithExamples;
+namespace ClassDemoWithExamples.ClassDemo;
 
 class ClassDemo
 {
@@ -35,5 +35,7 @@ class ClassDemo
         User user1 = new User();
         user1.Name = "Abhishek";
         user1.Age = 25;
+
+        Console.WriteLine($"User Name: {user1.Name}, Age: {user1.Age}");
     }
 }
