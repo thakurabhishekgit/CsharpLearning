@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace ClassDemoWithExamples.ClassDemo;
@@ -7,7 +8,10 @@ class ClassDemo
 {
     public class User
     {
-        public String Name {get; set;} //public string Id { get; private set; }
+        
+        public String Name {get; set;}  = string.Empty; // if no value is assigned then 
+        // it will be empty string instead of null 
+        //public string Id { get; private set; }
         
         public int Age {get; set;}
 
