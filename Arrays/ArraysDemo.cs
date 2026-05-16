@@ -27,7 +27,8 @@ namespace ArraysDemo.Arr
             // Example Input:
             // 2 2 1 2 3 2
 
-            string input = Console.ReadLine();
+            // string input =   Console.ReadLine();
+             string input = "2 2 1 2 3 2";// for example 
 
             // Split input using space
             string[] values = input.Split(' ');

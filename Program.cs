@@ -44,7 +44,8 @@ namespace MainApp
             // ControlFlowExamples.RunAllExamples();
             // Arr.TakeArrayInput();
 
-            ListMethodsDemo.ShowListMethods();
+            // ListMethodsDemo.ShowListMethods();
+            Console.WriteLine("Hello, World!");
 
 
        }

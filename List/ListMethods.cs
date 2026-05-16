@@ -226,7 +226,7 @@ namespace ListDemo.ListMethodsDemo
             Console.WriteLine("\nConverted Array:");
             Console.WriteLine($"[{string.Join(",", arr)}]");
 
-
+     
             // ------------------------------------------------
             // Clear()
             // Removes everything
