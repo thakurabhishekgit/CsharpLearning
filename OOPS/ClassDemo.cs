@@ -41,7 +41,7 @@ class ClassDemo
 
     public double Amount { get; set; }
 
-    public virtual void Pay() // virtual keyword is used to allow derived classes to override this method
+    public virtual void Pay(string Name  , double Amount) // virtual keyword is used to allow derived classes to override this method
     {
         Console.WriteLine("Generic payment processing");
     }
@@ -49,18 +49,40 @@ class ClassDemo
 
     class HDFC : Payment
 {
-    public override void Pay() // override keyword is used to provide a new implementation of the Pay method in the derived class
+    public override void Pay(string Name  , double Amount) // override keyword is used to provide a new implementation of the Pay method in the derived class
     {
-        Console.WriteLine("HDFC payment gateway");
+        Console.WriteLine($"HDFC payment gateway: {Name}, Amount: {Amount}");
+    }
+
+}
+
+    class ICICI : Payment
+{
+    public override void Pay(string Name, double Amount)
+    {
+        Console.WriteLine($"ICICI payment gateway: {Name}, Amount: {Amount}");
     }
 }
 
     public static void Run()
     {
-        User user1 = new User();
-        user1.Name = "Abhishek";
-        user1.Age = 25;
+        // User user1 = new User();
+        // user1.Name = "Abhishek";
+        // user1.Age = 25;
 
-        Console.WriteLine($"User Name: {user1.Name}, Age: {user1.Age}");
+        // Console.WriteLine($"User Name: {user1.Name}, Age: {user1.Age}");
+
+        HDFC hdfc = new HDFC();
+        hdfc.Name = "hdfc bank";
+        hdfc.Amount = 1000;
+        hdfc.Pay(hdfc.Name, hdfc.Amount);
+
+
+            ICICI icici = new ICICI
+            {
+                Name = "icici bank",
+                Amount = 2000
+            };
+            icici.Pay(icici.Name, icici.Amount);
     }
 }
