@@ -34,6 +34,27 @@ class ClassDemo
 
     }
 
+
+    class Payment
+{
+    public string Name { get; set; } = string.Empty;
+
+    public double Amount { get; set; }
+
+    public virtual void Pay() // virtual keyword is used to allow derived classes to override this method
+    {
+        Console.WriteLine("Generic payment processing");
+    }
+}
+
+    class HDFC : Payment
+{
+    public override void Pay() // override keyword is used to provide a new implementation of the Pay method in the derived class
+    {
+        Console.WriteLine("HDFC payment gateway");
+    }
+}
+
     public static void Run()
     {
         User user1 = new User();
